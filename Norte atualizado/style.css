@@ -1,0 +1,236 @@
+*{
+    /* aqui está fazendo reset no meu arquivo*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bodoni Moda', serif;
+}
+
+header{
+    display: flex;
+    /* display: flex; coloca algo do lado do outro */
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgb(151, 255, 186),rgba(26, 92, 48, 0.07));
+    height: 30vh;
+    width: 98vw;
+}
+
+
+body{
+    background-image: url(assets/WhatsApp\ Image\ 2023-04-30\ at\ 00.03.49.jpeg);
+    /* isso coloca a imagem no site: background-image:url */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.ancora{
+    color: white;
+    text-decoration: none;
+    /* none tira as coisas */
+
+}  
+
+.primeira_sessao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+   
+}
+
+h2{
+    margin-left: 30px;
+}
+.p_norte{
+    text-align: justify;
+    font-size: 14px;
+}
+.segunda_sessao{
+    border: 1px; 
+    width: 27vw;
+    height: 70vh;
+    background-image: linear-gradient(to top, rgb(2, 2, 2));
+    border: 0.1px solid rgb(2, 2, 2);
+    padding: 10px;
+    box-shadow: 10px 5px 5px rgb(12, 12, 12);
+    border-radius: 5px;
+    background-color: rgb(81, 255, 127);
+    margin-bottom: 50px;
+}
+
+.segunda_sessao-2{
+    border: 1px; 
+    width: 40vw;
+    height: 50vh;
+    background-image: linear-gradient(to top, rgb(2, 2, 2));
+    border: 0.1px solid rgb(2, 2, 2);
+    padding: 10px;
+    box-shadow: 10px 5px 5px rgb(12, 12, 12);
+    border-radius: 5px;
+    background-color: rgb(81, 255, 127);
+    margin-bottom: 50px;
+    margin-left: 5px
+}
+
+.p_estados{
+    font-size: 15px;
+}
+
+table{
+    border: 1px solid black;
+    font-size: 15px;
+    margin-left: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+tr, td, th{
+    border: 1px solid black;
+}
+
+li{
+    list-style: none;
+}
+
+.segunda_sessao-dados{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.segunda_sessao-lista{
+
+    list-style: none;
+}
+
+
+.terceira_sessao{
+    border: 1px; 
+    width: 50vw;
+    height: 60vh;
+    background-image: linear-gradient(to top, rgb(2, 2, 2));
+    border: 0.1px solid rgb(2, 2, 2);
+    padding: 5px;
+    box-shadow: 10px 5px 5px rgb(12, 12, 12);
+    border-radius: 5px;
+    background-color: rgb(142, 245, 199);
+}
+
+.sessoes-baixo{
+    display: flex;
+    flex-direction: row;
+}
+
+.letras{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(218, 253, 218, 0.5);
+    width: 200vw;
+}
+
+.letras-itens{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.comidas-imagens{
+    width: 15vw;
+    height: 25vh;
+    margin-top: 5vw;
+}
+
+.rios-imagens{
+    width: 15vw;
+    height: 25vh;
+    margin-top: 23px;
+}
+.bandeira{
+    width: 150px;
+    height: 120px;
+    margin-left: 40px;
+}
+
+.mascote{
+    width: 15vw;
+    height: 30vh;
+    margin-left: 200px;
+    margin-top: 18px;
+}
+
+.p_desmatamento{
+    font-size: 13px;
+}
+
+.mapa{
+    width: 20vw;
+    height: 40vh;
+    margin-left: 200px;
+   margin-top: 10px;
+}
+
+.p_Indios{
+    font-size: 13px;
+}
+
+.p_rios{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.p_comidas{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.p_mascote{
+    font-size: 14px;
+    margin-top: 13px;
+    text-align: center;
+}
+
+.palavras{
+    background-color: rgba(106, 250, 106, 0.3);
+}
+
+.direcao_link{
+    font-size: 16px;
+   text-align: end;
+}
+
+.danca_imagens{
+    width: 15vw;
+    height: 25vh;
+    margin-top: 3vw;
+}
+
+.p_danca{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.p_mapa{
+    font-size: 16px;
+    margin-top: 13px;
+    text-align: center;
+}
+
+.p_queimadas{
+    font-size: 12px;
+}
+
+.p_pontos-importantes{
+    font-size: 15px;
+}
+
+.lista{
+    border: 1px solid;
+    margin-top: 15px;
+    font-size: 15px;
+}
